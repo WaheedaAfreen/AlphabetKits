@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+height: 100vh;
+    display: flex;
+   flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+.btn{
+    padding: 10px;
+}
+.a{
+    font-size: 60px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    color: #ee0606;
+    background-image: url("a.jpg");
+    border-radius: 5px;
+    border: 2px solid darkorange;
+    box-shadow: 2px 2px 3px darkred;
+}
+.a:hover{
+    background-color: salmon;
+    cursor: pointer;
+}
+.b{
+    font-size: 60px;
+    width: 200px;
+    height: 200px;
+    color: #ef0808;
+    background-size: cover;
+    /*background-color: sandybrown;*/
+    background-image: url("b.jpg");
+    border-radius: 5px;
+    border: 2px solid darkorange;
+    box-shadow: 2px 2px 3px darkred;
+}
+.b:hover{
+    color: #fc1f05;
+    cursor: pointer;
+    background-color: salmon;
+}
+.c{
+    font-size: 60px;
+    width: 200px;
+    height: 200px;
+    background-image: url("c.jpg");
+    background-size: cover;
+    color: #ef0808;
+    border-radius: 5px;
+    border: 2px solid darkorange;
+    box-shadow: 2px 2px 3px darkred;
+}
+.c:hover{
+    color: #fc1f05;
+    cursor: pointer;
+    background-color: salmon;
+}
+.d{
+    font-size: 60px;
+    width: 200px;
+    height: 200px;
+    color: #fa0303;
+    background-image: url("d.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    border: 2px solid darkorange;
+    box-shadow: 2px 2px 3px darkred;
+}
+.d:hover{
+    color: #fc1f05;
+    cursor: pointer;
+    background-color: salmon;
+}
+
+/*.btn:hover{*/
+/*    color: coral;*/
+/*}*/
+
+/*.btn.active{*/
+/*    background-size: 105%;*/
+/*}*/
+
+
